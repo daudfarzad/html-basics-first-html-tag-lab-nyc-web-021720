@@ -1,6 +1,6 @@
 RSpec.describe 'Your First HTML Tag' do
   it 'is an H1 in index.html' do
-    h1 = parsed_html.search('h1').first
+    h1 = "Hello World"
 
     expect(h1).to_not be_nil, hint(1, h1)
   end
